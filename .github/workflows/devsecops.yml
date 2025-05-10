@@ -82,7 +82,7 @@ jobs:
             mysql:5.7
   
       - name: Wait for MySQL to be ready
-        run: sleep 20
+        run: sleep 120
   
       - name: Start DVWA container
         run: |
